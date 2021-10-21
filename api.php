@@ -126,7 +126,7 @@ class my_containersAPI extends containersAPI {
 					"output" => [
 						'headers' => $headers,
 						'raw' => $raw,
-						'results' => $results,
+						'dom' => $results,
 						"relationships" => $relationships,
 						"containers" => $containers,
 					],
@@ -139,7 +139,7 @@ class my_containersAPI extends containersAPI {
 					"output" => [
 						'headers' => $this->Auth->getHeaders('containers'),
 						'raw' => $raw,
-						'results' => $results,
+						'dom' => $results,
 						"relationships" => $relationships,
 						"containers" => $containers,
 					]
